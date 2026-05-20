@@ -1,0 +1,527 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.317);
+    padding-inline: 50px;
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+.logo{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 250px;
+    height: 100px;
+}
+
+.nav{
+    display:flex;
+    gap: 30px;
+}
+
+.nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav a:first-child{
+    color: rgb(253, 113, 136);
+}
+
+.search{
+    display: flex;
+    gap: 15px;
+
+}
+
+.search i{
+    font-size: 20px;
+    padding-block: 10px;
+    color: white;
+}
+
+.header-btn{
+    padding: 10px 20px;
+    background-color: rgb(253, 113, 136);
+    border: none;
+    cursor: pointer;
+}
+
+.header-btn button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+.header-contant{
+     background-image: url('../image/background.jpg  ');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    padding: 0px 50px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    color: rgb(253, 113, 136);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.header-text{
+    width: 800px;
+    height: 300px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+}
+
+.contant-btn{
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+}
+
+.contant-btn button:first-child{
+    padding: 10px 20px;
+    background-color: rgb(253, 113, 136);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    position: right;
+}
+
+.contant-btn button:last-child{
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(253, 113, 136);
+    cursor: pointer;
+    font-weight: 700;
+    position: right;
+}
+
+.contant-btn button{
+    border: none;
+    background: transparent;
+}
+
+/* About Section */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.about-img{
+    width: 500px;
+    height: 500px;
+    margin-right: 30px; 
+    position: relative;
+}
+
+.about-img img:nth-of-type(1){
+    width: 200px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: 240px;
+}
+.about-img img:nth-of-type(2){
+    width: 350px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+}
+.about-img img:nth-of-type(3){
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 250px;
+    margin-left: -50px;
+}
+.about-img img:nth-of-type(4){
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 4;
+    margin-top: -30px;
+    margin-left: 240px;
+}
+
+.about-text{
+    width: 850px;
+    height: 500px;
+}
+
+.about-text h3{
+    color: rgb(253, 113, 136);
+}
+
+.about-text h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    margin-block: 20px;
+}
+
+.about-text p{
+    font-size: 22px;
+    color: gray;
+    line-height: 32px;
+}
+
+/* Experience Section */
+
+.experience-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-block: 20px;
+} 
+
+.experience{
+    padding-right: 45px;
+    border-right: 1px solid gray;
+}
+
+.experience h3{
+    font-size: 50px;
+    color: rgb(253, 113, 136);
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.experience-section ul li{
+    list-style: none;
+}
+
+.experience-section ul li i{
+    color: rgb(253, 113, 136);
+    padding-right: 10px;
+}
+
+.about-btn{
+    width: 150px;
+    padding: 10px 20px;
+    background-color: rgb(253, 113, 136);
+    border: none;
+    cursor: pointer;
+}
+
+.about-btn button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+/* Services Section */
+
+.services{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(192, 192, 192);
+}
+
+.services h3{
+    color: rgb(253, 113, 136);
+    text-align: center;
+    padding-top: 50px;
+}
+.services h1{
+    text-align: center;
+    font-size: 50px;
+    margin-block: 20px;
+}
+
+.services-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+} 
+
+.services-cards  .card{
+    padding: 20px 20px;
+    width: 330px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card > i{
+    font-size: 60px;
+    color: rgb(253, 113, 136);
+}
+
+.card h2{
+    font-size: 30px;
+    margin-block: 20px;
+}
+
+.card h5{
+    width: 100%;
+    height: 170px;
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+}
+
+.card p{
+    color: gray;
+}
+
+/* Pricing Section */
+
+.pricing-section{
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.top-title{
+    color: #ff4f87;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pricing-section h1{
+    font-size: 55px;
+    color: #101828;
+    margin-bottom: 60px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 335px;
+    height: 500px;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.card h3{
+    color: gray;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.price-box{
+    display: inline-block;
+    background-color: #ff4f87;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.card p{
+    color: #555;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.card hr{
+    border: none;
+    height: 1px;
+    background-color: #e5e5e5;
+}
+
+.card button{
+    margin-top: 25px;
+    padding: 14px 28px;
+    border: none;
+    background-color: #ff4f87;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active-card{
+    background-color: #101828;
+    color: white;
+    transform: scale(1.05);
+}
+
+.active-card p{
+    color: white;
+}
+
+.active-card hr{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.active-btn{
+    background-color: white !important;
+    color: #ff4f87 !important;
+}
+
+/* footer Section */
+
+.footer{
+    background-color: #111827;
+    color: white;
+    padding: 70px 20px 20px;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+
+.footer-box h2{
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.footer-box h4{
+    color: #ddd;
+    margin-bottom: 25px;
+}
+
+.footer-box p{
+    color: #cfcfcf;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 18px;
+}
+
+.social-icons i{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-box h3{
+    color: #ff4f87;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer-box h3::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.footer-box ul{
+    list-style: none;
+}
+
+.footer-box ul li{
+    margin-bottom: 18px;
+    color: #d7d7d7;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 12px;
+}
+
+.footer-box ul li i{
+    color: #ff4f87;
+    margin-right: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #d0d0d0;
+}
+
