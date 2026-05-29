@@ -1,0 +1,423 @@
+/* 1400px */
+
+@media (max-width:1400px){
+
+    .container{
+        max-width: 1320px;
+        width: 100%;
+        padding-inline: 20px;
+    }
+
+}
+
+/* 1200px */
+
+@media (max-width:1200px){
+
+    .container{
+        max-width: 1000px;
+        width: 100%;
+        padding-inline: 20px;
+    }
+
+    .hero-text p{
+        padding-right: 0px;
+    }
+
+    .mega-grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .hero-image img{
+        width: 350px;
+    }
+
+    .testimonial-image img{
+        width: 300px;
+    }
+
+    .team-top-content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .team-left{
+        width: 100%;
+    }
+
+    .team-counter-box{
+        width: 100%;
+    }
+
+}
+
+/* 992px */
+
+@media (max-width:992px){
+
+    .container{
+        max-width: 100%;
+        padding-inline: 20px;
+    }
+
+    .mega-grid{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .hero-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 50px;
+    }
+
+    .hero-text p{
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+    .hero-btns{
+        justify-content: center;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .trusted-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .trusted-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .trusted-text h2{
+        font-size: 45px;
+    }
+
+    .trusted-text p{
+        font-size: 18px;
+    }
+
+    .brand-logo{
+        width: 100%;
+    }
+
+    .we-content{
+        grid-template-columns: 1fr;
+    }
+
+    .we-text{
+        text-align: center;
+    }
+
+    .we-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-content{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .testimonial-text{
+        padding: 40px 20px;
+    }
+
+    .stars{
+        margin: 20px 0px;
+    }
+
+    .team-card-grid{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .team-left h2{
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    /* Growth Section */
+    .growth-content{
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .growth-text{
+        text-align: center;
+    }
+
+    .growth-text h2{
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .growth-text p{
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    /* pricing section */
+    .pricing-content{
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-text{
+        text-align: center;
+    }
+
+    .pricing-text h2{
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .pricing-cards{
+        flex-wrap: wrap;
+    }
+
+}
+
+/* 768px */
+
+@media (max-width:768px){
+
+    .hero-content{
+        padding: 40px 20px;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+    }
+
+    .hero-text p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .hero-image img{
+        width: 280px;
+    }
+
+    .client-card{
+        right: 0;
+        bottom: 20px;
+    }
+
+    .brand-logo{
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+
+    .we-text h2{
+        font-size: 40px;
+    }
+
+    .testimonial-image img{
+        width: 250px;
+    }
+
+    .testimonial-text h3{
+        font-size: 24px;
+    }
+
+    .team-counter-box{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    /* Growth Section */
+    .growth-text h2{
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .growth-text p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /* pricing section */
+    .pricing-section{
+        padding: 80px 0px;
+    }
+
+    .pricing-text h2{
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    .pricing-text p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .pricing-card{
+        width: 100%;
+        max-width: 380px;
+    }
+
+}
+
+/* 576px */
+
+@media (max-width:576px){
+    
+    .mega-grid{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        font-size: 25px;
+    }
+
+    .hero-text h1{
+        font-size: 32px;
+        line-height: 1.4;
+    }
+
+    .hero-text p{
+        font-size: 16px;
+    }
+
+    .hero-btns{
+        flex-direction: column;
+    }
+
+    .btn1,
+    .btn2{
+        width: 100%;
+    }
+
+    .hero-image img{
+        width: 230px;
+    }
+
+    .client-card{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .trusted-text h2{
+        font-size: 32px;
+    }
+
+    .brand-logo{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .brand-logo img{
+        width: 150px;
+        margin: auto;
+    }
+
+    .we-text h2{
+        font-size: 32px;
+    }
+
+    .we-text h5{
+        font-size: 18px;
+    }
+
+    .testimonial-text p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .testimonial-image img{
+        width: 200px;
+    }
+
+    .creative-team{
+        margin: 80px auto;
+    }
+
+    .team-left h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .team-left p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .team-card-grid{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .counter-item i{
+        font-size: 42px;
+    }
+
+    .counter-item h3{
+        font-size: 34px;
+    }
+
+    .team-info h4{
+        font-size: 24px;
+    }
+
+    /* Growth Section */
+    .growth-section{
+        padding: 80px 0px;
+    }
+
+    .growth-text h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .growth-text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .play-btn{
+        width: 55px;
+        height: 55px;
+    }
+
+    .play-btn i{
+        font-size: 16px;
+    }
+
+    /* priccing section */
+    .pricing-text h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .pricing-card{
+        padding: 40px 25px;
+    }
+
+    .pricing-card h3{
+        font-size: 48px;
+    }
+
+}
