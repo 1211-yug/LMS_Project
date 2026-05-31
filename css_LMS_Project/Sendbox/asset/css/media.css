@@ -275,6 +275,41 @@
         max-width: 380px;
     }
 
+    /* Questions Section */
+    .questions{
+        display: block;
+    }
+
+    .questions-text{
+        margin-bottom: 40px;
+    }
+
+    /* Footer Section */
+    .footer-sec{
+        display: block;
+    }
+
+    .footer-text{
+        margin-bottom: 40px;
+    }
+
+    .footer-last{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-last p{
+        margin-bottom: 20px;
+    }
+
+    .f-cols h3{
+        font-size: 19px;
+    }
+
+    .f-cols p{
+        font-size: 13px;
+    }
+
 }
 
 /* 576px */
@@ -418,6 +453,16 @@
 
     .pricing-card h3{
         font-size: 48px;
+    }
+
+    /* Questions Section */
+    .questions{
+        padding: 40px 40px;
+        margin: 0px 40px;
+    }
+
+    .questions-ans .que{
+        font-size: 13px;
     }
 
 }
